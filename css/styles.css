@@ -1,0 +1,49 @@
+/* HEADER */
+
+#header-nav {
+    background-color: #E27D60;
+    border: 0;
+    border-radius: 0;
+}
+
+.navbar-brand {
+    padding-top: 25px;
+  }
+
+#instructions {
+    color: black;
+    font-size: 2em;
+    padding-top: 40px;
+    position: relative;
+    width: 100%;
+}
+
+/* BODY */
+body {
+    background-color: #85dcb8;
+    color: rgb(99, 98, 98);
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+/* MAIN CONTENT */
+
+#table-title {
+    font-size: 60px;
+    font-style: bold;
+    color: pink;
+}
+
+#cup-image {
+    align-items: center;
+}
+
+
+
+
+
+
+/* FOOTER */
+footer {
+    background-color: #41B3A3;
+}
