@@ -16,7 +16,7 @@
 
 #instructions {
     color: black;
-    font-size: 2em;
+    font-size: 15px;
     padding-top: 40px;
     position: relative;
     width: 100%;
@@ -68,15 +68,36 @@ body {
 }
 
 
-
 hr {
     border: 3px solid black;
     opacity: 0.5;
 }
 
 
-
 /* FOOTER */
 footer {
     background-color: #41B3A3;
+}
+
+
+/* SMALL AND MOBILE DEVICES ONLY */
+@media (max-width: 767px) {
+    #cup img {
+        height: 125px;
+        width: 125px;
+        border: 3px solid rgba(0, 0, 0, 0.342);
+    }
+    #course img {
+        height: 150px;
+        width: 150px;
+        border: 3px solid rgba(0, 0, 0, 0.342);
+    }
+}
+
+/* LARGE AND MEDIUM DEVICES */
+@media (min-width: 768px) {
+    #instructions {
+    font-size: 30px;
+    color: black;
+    }
 }
